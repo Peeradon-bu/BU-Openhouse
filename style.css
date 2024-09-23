@@ -1,0 +1,165 @@
+body{
+    background-image: url("./Gallery/BG.jfif");
+    background-size: cover; /* ทำให้ภาพเต็มพื้นที่ของ body */
+    background-position: center; /* จัดตำแหน่งของภาพให้อยู่กลาง */
+    background-repeat: no-repeat; /* ป้องกันไม่ให้ภาพซ้ำ */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color:#333
+}
+
+h3 {
+    color:#f4f4f4
+}
+
+p {
+    color: #ffffff;
+}
+
+/* Id */
+
+#top {
+    background-color: #212529;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+#homepage {
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Class */
+
+.button {
+    padding: 10px 20px;
+    margin: 30px 10px;
+    background-color: #212529;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.buttonwhite {
+    padding: 10px 20px;
+    margin: 30px 10px;
+    background-color: white;
+    color: #212529;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #525558;
+}
+
+.buttonwhite:hover {
+    background-color: #d6d6d6;
+}
+
+.imgsize {
+    width: 100%;
+    height: 100%;  
+}
+
+.border {
+    background-color: #ffffff;
+    height: 800px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 30px 10px;
+}
+
+.thbg1{
+    color:rgb(255, 255, 255);
+    background-color: rgb(16, 74, 124);
+    font: bold 20px sans-serif;
+    padding: 10px 10px;
+}
+
+.tdbg1{
+    color:rgb(0, 0, 0);
+    background-color: rgb(212, 189, 57);
+    font: 15px sans-serif;
+    padding: 7px 7px;
+}
+
+.tdbg2{
+    color:rgb(255, 255, 255);
+    background-color: rgb(194, 194, 194);
+    font: 15px sans-serif;
+    padding: 5px 5px;
+}
+
+.tdbg3{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font: 13px sans-serif;
+    padding: 10px 3px;
+}
+
+.social-facebook {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-facebook:hover {
+    background-color: #213e7a; /* สีเมื่อชี้ */
+}
+
+.social-ig {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    background-color: #E1306C; /* สีพื้นหลัง Instagram */
+    color: white; /* สีของข้อความ */
+    border: none; /* ไม่มีกรอบ */
+    border-radius: 5px; /* มุมมน */
+    font-size: 16px; /* ขนาดข้อความ */
+    text-decoration: none; /* ไม่มีเส้นใต้ */
+    cursor: pointer; /* แสดงเป็นมือเมื่อชี้ */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงเมื่อชี้ */
+}
+
+.social-ig:hover {
+    background-color: #bc2a56; /* สีเมื่อชี้ */
+}
+
+.social-line {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    background-color: #00C300; /* สีพื้นหลังของ Line */
+    color: white; /* สีของข้อความ */
+    border: none; /* ไม่มีกรอบ */
+    border-radius: 5px; /* มุมมน */
+    font-size: 16px; /* ขนาดข้อความ */
+    text-decoration: none; /* ไม่มีเส้นใต้ */
+    cursor: pointer; /* แสดงเป็นมือเมื่อชี้ */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงเมื่อชี้ */
+}
+
+.social-line:hover {
+    background-color: #009B00; /* สีเมื่อชี้ */
+}
